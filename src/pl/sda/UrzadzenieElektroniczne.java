@@ -1,7 +1,5 @@
 package pl.sda;
 
-import java.lang.ref.SoftReference;
-
 public class UrzadzenieElektroniczne {
     private String name;
     private String color;
@@ -46,6 +44,4 @@ public class UrzadzenieElektroniczne {
     public void setLenght(int lenght) {
         this.lenght = lenght;
     }
-//    UrzadzenieElektroniczne urzadzenieElektroniczne = new UrzadzenieElektroniczne("OnePlus");
-    //AparatFoto aparatFoto = new AparatFoto( );
 }

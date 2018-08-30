@@ -1,11 +1,11 @@
 package pl.sda;
 
 public class AparatFoto extends UrzadzenieElektroniczne{
-    private int pojemnoscAkumulatora;
+    private String typeMatrix ;
     private int rozdzielczoscAparatu;
 
-    public void AparatFoto(int pojemnoscAkumulatora ){
-    this.pojemnoscAkumulatora = pojemnoscAkumulatora;
+    public void AparatFoto(){
+    this.typeMatrix = typeMatrix;
     }
 
     public AparatFoto(String name) {
