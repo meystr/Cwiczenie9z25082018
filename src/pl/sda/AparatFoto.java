@@ -11,11 +11,7 @@ public class AparatFoto extends UrzadzenieElektroniczne{
     public AparatFoto(String name) {
         super(name);
     }
-    public AparatFoto(int rozdzielczoscAparatu, String color){
-        super (color);
-        super.setHeight(123);
-        super.setLenght(432);
-        super.setWidth(744);
-        System.out.println("bla bla");
+    public void zrobZdjecie(){
+        System.out.println("Zrobiono zdjęcie...");
     }
 }

@@ -21,27 +21,7 @@ public class UrzadzenieElektroniczne {
      this.height = height;
      this.lenght = lenght;
     }
-    public void setColor(String color) {
-        color = color;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setMark(String mark) {
-        this.mark = mark;
-    }
-
-    public void setWidth(int width) {
-        this.width = width;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
-
-    public void setLenght(int lenght) {
-        this.lenght = lenght;
+    public void turnOn(){
+        System.out.println("włączono...");
     }
 }
